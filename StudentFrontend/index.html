@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Student Management System</h1>
+            <p>Frontend + Backend CRUD Application</p>
+        </header>
+
+        <div class="main-content">
+            <!-- LEFT SIDE: Form -->
+            <div class="form-section">
+                <h2>Student Form</h2>
+                <form id="studentForm">
+                    <input type="hidden" id="studentId">
+                    
+                    <div class="form-group">
+                        <label>Name:</label>
+                        <input type="text" id="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Course:</label>
+                        <input type="text" id="course" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Age:</label>
+                        <input type="number" id="age" min="1" max="100" required>
+                    </div>
+
+                    <div class="button-group">
+                        <button type="submit" class="btn btn-create">Add Student</button>
+                        <button type="button" class="btn btn-update" id="updateBtn" style="display:none;">Update Student</button>
+                        <button type="button" class="btn btn-clear" onclick="clearForm()">Clear Form</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- RIGHT SIDE: Table -->
+            <div class="table-section">
+                <h2>Student List</h2>
+                <button class="btn btn-refresh" onclick="loadStudents()">🔄 Refresh</button>
+                
+                <table id="studentTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Course</th>
+                            <th>Age</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentTableBody">
+                        <!-- Students will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            <p>Backend: C# ASP.NET Web API | Frontend: HTML/CSS/JavaScript | Database: SQLite</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

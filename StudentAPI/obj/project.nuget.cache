@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "yr/YpG63LfM=",
+  "success": true,
+  "projectFilePath": "/Users/macbookairm215/Desktop/StudentAPI/StudentAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/macbookairm215/.nuget/packages/microsoft.aspnetcore.cors/2.3.9/microsoft.aspnetcore.cors.2.3.9.nupkg.sha512",
+    "/Users/macbookairm215/.nuget/packages/microsoft.aspnetcore.openapi/10.0.1/microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "/Users/macbookairm215/.nuget/packages/microsoft.data.sqlite/10.0.1/microsoft.data.sqlite.10.0.1.nupkg.sha512",
+    "/Users/macbookairm215/.nuget/packages/microsoft.data.sqlite.core/10.0.1/microsoft.data.sqlite.core.10.0.1.nupkg.sha512",
+    "/Users/macbookairm215/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/Users/macbookairm215/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.11/sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
+    "/Users/macbookairm215/.nuget/packages/sqlitepclraw.core/2.1.11/sqlitepclraw.core.2.1.11.nupkg.sha512",
+    "/Users/macbookairm215/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.11/sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
+    "/Users/macbookairm215/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.11/sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Cors will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "/Users/macbookairm215/Desktop/StudentAPI/StudentAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/macbookairm215/Desktop/StudentAPI/StudentAPI.csproj",
+      "libraryId": "Microsoft.AspNetCore.Cors",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
